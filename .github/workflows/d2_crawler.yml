@@ -1,0 +1,39 @@
+name: D2 Blog to Notion
+
+on:
+  schedule:
+    # 매일 오전 9시 (한국 시간 = UTC 0시)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  crawl-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        playwright install --with-deps chromium
+    
+    - name: Run D2 crawler
+      env:
+        NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+      run: |
+        python d2_to_notion_complete.py
+    
+    - name: Commit cache file
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add notion_urls_cache.txt
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update notion cache [skip ci]"
+        git push

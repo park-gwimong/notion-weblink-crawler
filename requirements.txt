@@ -1,0 +1,2 @@
+# Playwright for DOM rendering
+playwright==1.48.0

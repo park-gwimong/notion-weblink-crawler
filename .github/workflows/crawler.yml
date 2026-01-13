@@ -1,4 +1,4 @@
-name: D2 Blog to Notion
+name: Tech Blog Crawler
 
 on:
   schedule:
@@ -12,27 +12,27 @@ permissions:
 jobs:
   crawl-and-update:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
-    
+      uses: actions/checkout@v4
+
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
-    
+        python-version: '3.11'
+
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
         playwright install --with-deps chromium
-    
-    - name: Run D2 crawler
+
+    - name: Run crawler
       env:
         NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
       run: |
-        python d2_to_notion_complete.py
-    
+        python main.py
+
     - name: Commit cache file
       run: |
         git config --local user.email "action@github.com"

@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(python:*)",
-      "WebFetch(domain:tech.kakao.com)"
+      "WebFetch(domain:tech.kakao.com)",
+      "WebFetch(domain:toss.tech)"
     ]
   }
 }

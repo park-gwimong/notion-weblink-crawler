@@ -11,6 +11,7 @@ from .toss import TossCrawler, fetch_toss_posts
 from .daangn import DaangnCrawler, fetch_daangn_posts
 from .gccompany import GCCompanyCrawler, fetch_gccompany_posts
 from .wanted import WantedCrawler, fetch_wanted_posts
+from .coupang import CoupangCrawler, fetch_coupang_posts
 
 # 등록된 모든 크롤러 클래스
 CRAWLERS = [
@@ -20,6 +21,7 @@ CRAWLERS = [
     DaangnCrawler,
     GCCompanyCrawler,
     WantedCrawler,
+    CoupangCrawler,
 ]
 
 __all__ = [
@@ -31,11 +33,13 @@ __all__ = [
     'DaangnCrawler',
     'GCCompanyCrawler',
     'WantedCrawler',
+    'CoupangCrawler',
     'fetch_d2_posts',
     'fetch_kakao_tech_posts',
     'fetch_toss_posts',
     'fetch_daangn_posts',
     'fetch_gccompany_posts',
     'fetch_wanted_posts',
+    'fetch_coupang_posts',
     'CRAWLERS',
 ]

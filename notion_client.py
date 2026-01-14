@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Notion API 클라이언트 모듈
-Notion 데이터베이스와의 통신 처리
-"""
 
 import json
 from urllib.request import Request, urlopen

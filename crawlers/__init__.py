@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-크롤러 모듈
-각 블로그 사이트별 크롤러를 포함합니다.
-"""
 
 from .base import BaseCrawler, Post
 from .d2 import D2Crawler, fetch_d2_posts

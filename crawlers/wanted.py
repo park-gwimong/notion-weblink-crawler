@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Wanted tech blog crawler (RSS-based)
-https://medium.com/wantedjobs
-"""
 
 import re
 from datetime import datetime

@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Tech Blog → Notion Weblinks 자동화
-여러 기술 블로그에서 글을 크롤링하여 Notion에 추가
-"""
 
 import sys
 import time

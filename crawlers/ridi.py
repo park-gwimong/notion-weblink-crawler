@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-RIDI tech blog crawler
-https://ridicorp.com/story-category/tech-blog/
-"""
 
 from typing import List
 from playwright.sync_api import Page

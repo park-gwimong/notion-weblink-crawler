@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Coupang tech blog crawler (RSS-based)
-https://medium.com/@coupang-engineering-kr
-"""
 
 import re
 from datetime import datetime

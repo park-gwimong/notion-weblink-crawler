@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-캐시 관리 모듈
-URL 중복 방지를 위한 캐시 처리
-"""
 
 import os
 from config import CACHE_FILE

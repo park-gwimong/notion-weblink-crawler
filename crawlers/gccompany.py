@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-여기어때 기술 블로그 크롤러 (RSS 피드 기반)
-https://medium.com/gccompany
-"""
 
 import re
 from datetime import datetime

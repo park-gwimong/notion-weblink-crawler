@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-크롤러 베이스 클래스
-모든 크롤러가 상속받는 추상 클래스
-"""
 
 from abc import ABC, abstractmethod
 from datetime import datetime

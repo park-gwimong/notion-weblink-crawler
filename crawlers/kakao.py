@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-카카오 테크 블로그 크롤러
-https://tech.kakao.com/blog
-"""
 
 import re
 from typing import List

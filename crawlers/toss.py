@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-토스 테크 블로그 크롤러
-https://toss.tech/category/engineering
-"""
 
 from typing import List
 from playwright.sync_api import Page

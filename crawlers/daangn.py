@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-당근마켓 기술 블로그 크롤러 (RSS 피드 기반)
-https://medium.com/daangn
-"""
 
 import re
 from datetime import datetime

@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-네이버 D2 블로그 크롤러
-https://d2.naver.com/helloworld
-"""
 
 from typing import List
 from playwright.sync_api import Page

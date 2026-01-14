@@ -18,3 +18,8 @@ https://tech.kakao.com/posts/799
 https://tech.kakao.com/posts/798
 https://tech.kakao.com/posts/797
 https://tech.kakao.com/posts/796
+https://toss.tech/article/payments-legacy-8
+https://toss.tech/article/rethinking-design-system
+https://toss.tech/article/vulnerability-analysis-automation-1
+https://toss.tech/article/ast-funnel-visualization
+https://toss.tech/article/ai-driven-ui-test-automation

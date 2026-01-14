@@ -8,12 +8,14 @@ from .base import BaseCrawler, Post
 from .d2 import D2Crawler, fetch_d2_posts
 from .kakao import KakaoCrawler, fetch_kakao_tech_posts
 from .toss import TossCrawler, fetch_toss_posts
+from .daangn import DaangnCrawler, fetch_daangn_posts
 
 # 등록된 모든 크롤러 클래스
 CRAWLERS = [
     D2Crawler,
     KakaoCrawler,
     TossCrawler,
+    DaangnCrawler,
 ]
 
 __all__ = [
@@ -22,8 +24,10 @@ __all__ = [
     'D2Crawler',
     'KakaoCrawler',
     'TossCrawler',
+    'DaangnCrawler',
     'fetch_d2_posts',
     'fetch_kakao_tech_posts',
     'fetch_toss_posts',
+    'fetch_daangn_posts',
     'CRAWLERS',
 ]

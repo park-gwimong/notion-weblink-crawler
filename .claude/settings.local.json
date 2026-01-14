@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python:*)",
       "WebFetch(domain:tech.kakao.com)",
-      "WebFetch(domain:toss.tech)"
+      "WebFetch(domain:toss.tech)",
+      "WebFetch(domain:medium.com)",
+      "Bash(pip install:*)"
     ]
   }
 }

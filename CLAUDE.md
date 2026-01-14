@@ -10,6 +10,7 @@ This is a Python-based web crawler that automatically fetches new articles from 
 - Naver D2 (https://d2.naver.com/helloworld)
 - Kakao Tech (https://tech.kakao.com/blog)
 - Toss Tech (https://toss.tech/category/engineering)
+- Daangn (https://medium.com/daangn)
 
 **Primary deployment method**: GitHub Actions (scheduled workflow)
 
@@ -26,7 +27,8 @@ notion-weblink-crawler/
 │   ├── base.py             # BaseCrawler 추상 클래스
 │   ├── d2.py               # D2 블로그 크롤러
 │   ├── kakao.py            # 카카오 테크 크롤러
-│   └── toss.py             # 토스 테크 크롤러
+│   ├── toss.py             # 토스 테크 크롤러
+│   └── daangn.py           # 당근마켓 블로그 크롤러 (Medium)
 ├── .github/workflows/
 │   └── crawler.yml         # GitHub Actions 워크플로우
 ├── requirements.txt
@@ -188,9 +190,16 @@ date_elem = card.query_selector('.txt_date')       # 날짜
 # 셀렉터 (TossCrawler.parse_posts)
 page.wait_for_selector('a[href^="/article/"]')
 post_links = page.query_selector_all('a[href^="/article/"]')
-title_elem = link.query_selector('h3, h2, [class*="title"]')  # 제목
-summary_elem = link.query_selector('p, [class*="desc"]')      # 요약
-date_elem = link.query_selector('time, [class*="date"]')      # 날짜
+# _parse_content()로 텍스트 줄 기반 파싱
+```
+
+#### Daangn Blog (`crawlers/daangn.py`) - Medium 기반
+```python
+# 셀렉터 (DaangnCrawler.parse_posts)
+page.wait_for_selector('article')
+articles = page.query_selector_all('article')
+link = article.query_selector('a[href*="/daangn/"]')
+title_elem = article.query_selector('h2, h3, h4, strong')
 ```
 
 디버깅: `BaseCrawler.fetch()`에서 `headless=False`로 변경하여 브라우저 확인
@@ -205,4 +214,4 @@ date_elem = link.query_selector('time, [class*="date"]')      # 날짜
 - 워크플로우는 `[skip ci]` 커밋 메시지로 재귀 실행 방지
 - 캐시 파일은 URL만 포함 (민감 정보 없음)
 - 각 블로그당 최신 10개 글 크롤링
-- 각 포스트에 `source` 필드로 출처 추적 ('d2', 'kakao', 'toss' 등)
+- 각 포스트에 `source` 필드로 출처 추적 ('d2', 'kakao', 'toss', 'daangn' 등)

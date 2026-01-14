@@ -1,2 +1,5 @@
 # Playwright for DOM rendering
 playwright==1.48.0
+
+# RSS feed parsing
+feedparser==6.0.11

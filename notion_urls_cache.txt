@@ -80,3 +80,4 @@ https://toss.tech/article/income-qa-platform
 https://toss.tech/article/payments-legacy-9
 https://d2.naver.com/helloworld/6512234
 https://toss.tech/article/will-ai-replace-developers
+https://medium.com/daangn/%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%9C%84%ED%95%9C-redux-node-js-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EC%8B%B1-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EA%B0%9C%EB%B0%9C%EA%B8%B0-0b2cd4f4a569?source=rss----4505f82a2dbd---4

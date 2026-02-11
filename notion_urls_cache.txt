@@ -89,3 +89,4 @@ https://tech.kakao.com/posts/809
 https://techblog.gccompany.co.kr/%EC%84%A4%EB%A0%88%EB%8A%94-%EC%B2%AB-%EB%A7%8C%EB%82%A8%EC%9D%84-%EC%A4%80%EB%B9%84%ED%95%98%EB%8A%94-%EC%8B%9C%EA%B0%84-4a22549aa21c?source=rss----18356045d353---4
 https://tech.kakao.com/posts/810
 https://techblog.gccompany.co.kr/%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C-app-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-qa-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B0%80%EC%9D%B4%EB%93%9C-04fc26bdef6a?source=rss----18356045d353---4
+https://toss.tech/article/payments-legacy-10

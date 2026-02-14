@@ -91,3 +91,5 @@ https://tech.kakao.com/posts/810
 https://techblog.gccompany.co.kr/%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C-app-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-qa-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B0%80%EC%9D%B4%EB%93%9C-04fc26bdef6a?source=rss----18356045d353---4
 https://toss.tech/article/payments-legacy-10
 https://tech.kakao.com/posts/811
+https://techblog.gccompany.co.kr/%EB%B6%88%EC%95%88%EC%A0%95%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%8B%A0%EB%A2%B0%EB%A1%9C-%EB%B0%94%EA%BE%B8%EB%8A%94-%EA%B3%BC%EC%A0%95-playwright-flaky-test-%EA%B0%9C%EC%84%A0%EA%B8%B0-c2ed8be64f3d?source=rss----18356045d353---4
+https://techblog.gccompany.co.kr/ai-%EC%8B%9C%EB%8C%80-%EA%B5%AC%EC%84%B1%EC%9B%90%EC%9D%B4-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EC%A1%B0%EC%A7%81%EC%9D%98-%EB%AF%B8%EB%9E%98-91b40d23282b?source=rss----18356045d353---4

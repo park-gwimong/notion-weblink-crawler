@@ -116,3 +116,4 @@ https://tech.kakao.com/posts/817
 https://tech.kakao.com/posts/816
 https://toss.tech/article/harness-for-team-productivity-eng
 https://toss.tech/article/vulnerability-analysis-automation-2
+https://d2.naver.com/helloworld/1155434

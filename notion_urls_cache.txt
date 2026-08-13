@@ -230,3 +230,6 @@ https://d2.naver.com/helloworld/7337586
 https://d2.naver.com/helloworld/0525182
 https://toss.tech/article/52209
 https://techblog.gccompany.co.kr/%ED%95%AD%EA%B3%B5-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B5%AC%EC%B6%95%EA%B8%B0-7-10-%EC%B0%BD%EA%B5%AC%EB%A5%BC-%ED%95%98%EB%82%98%EB%A7%8C-%EB%91%90%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4-7b924758ad42?source=rss----18356045d353---4
+https://toss.tech/article/tech_talk_talk_1
+https://medium.com/daangn/laying-the-rails-beyond-webview-why-karrot-chose-lynx-db1aa92af5e4?source=rss----4505f82a2dbd---4
+https://medium.com/daangn/%EC%9B%B9%EB%B7%B0-%EB%8B%A4%EC%9D%8C%EC%9D%98-%EB%A0%88%EC%9D%BC%EC%9D%84-%EA%B9%94%EB%8B%A4-%EB%8B%B9%EA%B7%BC%EC%9D%B4-lynx%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-34dd50abbfb7?source=rss----4505f82a2dbd---4

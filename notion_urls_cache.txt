@@ -250,3 +250,4 @@ https://toss.tech/article/tech_talk_talk_3
 https://tech.kakao.com/posts/830
 https://toss.tech/article/qa_hotfix
 https://techblog.gccompany.co.kr/eks-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%8A%A4%ED%8C%8C%EC%9D%B4%ED%81%AC-%EC%B6%94%EC%A0%81%EA%B8%B0-b0ad2ab4422d?source=rss----18356045d353---4
+https://tech.kakao.com/posts/831

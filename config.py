@@ -17,3 +17,12 @@ PLAYWRIGHT_TIMEOUT = 15000  # Playwright 타임아웃 (ms)
 
 # Notion 기본 태그
 DEFAULT_TAG = "Articles"
+
+# 제목에 이 단어가 들어간 글은 수집하지 않음 (대소문자 무시)
+# 사내 문화·채용·행사 안내처럼 기술 학습과 거리가 먼 글을 거른다
+EXCLUDE_TITLE_KEYWORDS = [
+    "컬처", "culture",
+    "네트워킹",
+    "채용", "입사", "인턴",
+    "밋업 후기", "행사 후기",
+]

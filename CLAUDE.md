@@ -3,7 +3,9 @@
 ## 프로젝트 개요
 
 기술 블로그 새 글을 Notion "Weblinks" DB에 자동 추가하는 크롤러.
-GitHub Actions로 매일 09:00 KST 실행.
+GitHub Actions로 매일 08:17 KST 실행 (정각 혼잡을 피해 분을 비켜 둠).
+제목에 제외 키워드(`EXCLUDE_TITLE_KEYWORDS`)가 들어간 글은 Notion에 넣지 않고 캐시에만 기록한다.
+수집 실패가 크면 실패 코드로 끝나 GitHub Actions 실패 알림이 온다.
 
 ## 지원 블로그
 
@@ -49,6 +51,7 @@ main.py
   → Playwright/RSS로 파싱
   → Post 객체 생성
   → cache 체크
+  → 제외 키워드 필터 (걸린 글은 캐시에만 기록)
   → NotionClient.create_page()
   → cache.add()
 ```
@@ -111,6 +114,7 @@ CRAWLERS = [
 | `MAX_POSTS_PER_SOURCE` | 블로그당 최대 글 수 | 10 |
 | `REQUEST_DELAY` | API 호출 딜레이 | 0.3초 |
 | `PLAYWRIGHT_TIMEOUT` | 렌더링 타임아웃 | 15000ms |
+| `EXCLUDE_TITLE_KEYWORDS` | 제목 제외 키워드 (대소문자 무시) | 컬처, 네트워킹, 채용 등 |
 
 ## Notion DB 속성
 
@@ -121,6 +125,8 @@ CRAWLERS = [
 | Tags | select |
 | Summary | rich_text (최대 2000자) |
 | Published Date | date |
+| 상태 | select (크롤러는 비워 둠 = 미분류. 읽을 것 / 읽음 / 글 재료 / 패스는 사람이 지정) |
+| 분야 | multi_select (크롤러는 비워 둠. 주간 점검이 지정) |
 
 ## 트러블슈팅
 

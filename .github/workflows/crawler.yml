@@ -2,8 +2,9 @@ name: Tech Blog Crawler
 
 on:
   schedule:
-    # 매일 오전 9시 (한국 시간 = UTC 0시)
-    - cron: '0 0 * * *'
+    # 매일 오전 8시 17분 (한국 시간 = UTC 전날 23:17)
+    # 정각(:00)은 GitHub 예약 실행이 몰려 수 시간씩 밀리므로 분을 비켜 둔다
+    - cron: '17 23 * * *'
   workflow_dispatch:  # 수동 실행 가능
 
 permissions:
@@ -34,6 +35,8 @@ jobs:
         python main.py
 
     - name: Commit cache file
+      # 크롤러가 실패 코드로 끝나도, 그 전에 추가된 글의 캐시는 저장해야 중복 추가를 막을 수 있다
+      if: always()
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"

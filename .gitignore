@@ -10,3 +10,7 @@ venv/
 
 # Environment
 .env
+
+# Claude Code 로컬 파일
+.claude/settings.local.json
+tmpclaude-*

@@ -312,3 +312,4 @@ https://d2.naver.com/helloworld/1443473
 https://medium.com/daangn/%EB%AA%A8%EB%8D%B8%EB%A7%8C-%EB%B0%94%EA%BF%A8%EB%8A%94%EB%8D%B0-llm-%EB%B9%84%EC%9A%A9%EC%9D%B4-3%EB%B0%B0%EA%B0%80-%EB%90%9C-%EC%9D%B4%EC%9C%A0-5ae60ab5108b?source=rss----4505f82a2dbd---4
 https://medium.com/wantedjobs/%EC%95%B1-%EB%A6%AC%EB%B7%B0-%EC%9E%90%EB%8F%99%ED%99%94-%EC%9D%BC%EC%A3%BC%EC%9D%BC%EB%A7%8C%EC%97%90-%EB%A7%8C%EB%93%A4%EA%B8%B0-00a798a73975?source=rss----fb47eceee74c---4
 https://tech.kakao.com/posts/842
+https://toss.tech/article/dataops-log-definition-skill

@@ -313,3 +313,4 @@ https://medium.com/daangn/%EB%AA%A8%EB%8D%B8%EB%A7%8C-%EB%B0%94%EA%BF%A8%EB%8A%9
 https://medium.com/wantedjobs/%EC%95%B1-%EB%A6%AC%EB%B7%B0-%EC%9E%90%EB%8F%99%ED%99%94-%EC%9D%BC%EC%A3%BC%EC%9D%BC%EB%A7%8C%EC%97%90-%EB%A7%8C%EB%93%A4%EA%B8%B0-00a798a73975?source=rss----fb47eceee74c---4
 https://tech.kakao.com/posts/842
 https://toss.tech/article/dataops-log-definition-skill
+https://tech.kakao.com/posts/843

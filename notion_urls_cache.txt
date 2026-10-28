@@ -314,3 +314,5 @@ https://medium.com/wantedjobs/%EC%95%B1-%EB%A6%AC%EB%B7%B0-%EC%9E%90%EB%8F%99%ED
 https://tech.kakao.com/posts/842
 https://toss.tech/article/dataops-log-definition-skill
 https://tech.kakao.com/posts/843
+https://d2.naver.com/helloworld/1975819
+https://toss.tech/article/snap-llm-cost-reduction

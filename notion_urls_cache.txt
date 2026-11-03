@@ -318,3 +318,5 @@ https://d2.naver.com/helloworld/1975819
 https://toss.tech/article/snap-llm-cost-reduction
 https://tech.kakao.com/posts/844
 https://d2.naver.com/helloworld/2983631
+https://d2.naver.com/helloworld/2265641
+https://tech.kakao.com/posts/845

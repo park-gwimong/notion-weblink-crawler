@@ -370,3 +370,5 @@ https://medium.com/daangn/why-cant-my-running-pods-be-reached-our-journey-to-kub
 https://medium.com/daangn/%ED%8C%8C%EB%93%9C%EB%8A%94-%EB%96%B4%EB%8A%94%EB%8D%B0-%EC%99%9C-%ED%86%B5%EC%8B%A0%EC%9D%B4-%EC%95%88-%EB%90%A0%EA%B9%8C-kube-proxy-nftables-%EC%A0%84%ED%99%98-%EC%97%AC%EC%A0%95-545dfd2cfc4f?source=rss----4505f82a2dbd---4
 https://d2.naver.com/helloworld/5512498
 https://d2.naver.com/helloworld/4331341
+https://d2.naver.com/helloworld/5073599
+https://d2.naver.com/helloworld/6934862

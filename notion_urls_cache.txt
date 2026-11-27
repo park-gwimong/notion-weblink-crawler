@@ -372,3 +372,5 @@ https://d2.naver.com/helloworld/5512498
 https://d2.naver.com/helloworld/4331341
 https://d2.naver.com/helloworld/5073599
 https://d2.naver.com/helloworld/6934862
+https://tech.kakao.com/posts/850
+https://d2.naver.com/helloworld/7426315
